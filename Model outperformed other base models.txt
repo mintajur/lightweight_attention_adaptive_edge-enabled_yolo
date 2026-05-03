@@ -1,0 +1,111 @@
+YOLOv8n_Baseline
+
+
+Validating /content/runs/detect/YOLOv8n_Baseline/weights/best.pt...
+Ultralytics 8.4.45 🚀 Python-3.12.13 torch-2.10.0+cu128 CUDA:0 (Tesla T4, 14913MiB)
+Model summary (fused): 73 layers, 3,006,623 parameters, 0 gradients, 8.1 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 3/3 1.9it/s 1.6s
+                   all         84        461      0.861      0.771       0.83       0.53
+               Hardhat         42         79      0.944      0.861      0.888      0.591
+            NO-Hardhat         37         69      0.812      0.623      0.691      0.381
+                Person         84        166      0.877      0.789      0.865      0.546
+           Safety Vest         28         41      0.806      0.805        0.9      0.631
+        NO-Safety Vest         56        106      0.864      0.779      0.805        0.5
+Speed: 0.2ms preprocess, 2.2ms inference, 0.0ms loss, 3.0ms postprocess per image
+Results saved to /content/runs/detect/YOLOv8n_Baseline
+
+
+========================================================================================================================================
+
+
+
+YOLOv8s_Baseline
+
+
+Validating /content/runs/detect/YOLOv8s_Baseline/weights/best.pt...
+Ultralytics 8.4.45 🚀 Python-3.12.13 torch-2.10.0+cu128 CUDA:0 (Tesla T4, 14913MiB)
+Model summary (fused): 73 layers, 11,127,519 parameters, 0 gradients, 28.4 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 3/3 1.5it/s 2.0s
+                   all         84        461      0.879      0.812      0.853      0.583
+               Hardhat         42         79      0.931      0.848      0.899      0.619
+            NO-Hardhat         37         69      0.811      0.684      0.757      0.464
+                Person         84        166      0.849      0.819       0.88      0.603
+           Safety Vest         28         41      0.927      0.925       0.93      0.691
+        NO-Safety Vest         56        106      0.876      0.783        0.8      0.537
+Speed: 0.2ms preprocess, 5.1ms inference, 0.0ms loss, 4.7ms postprocess per image
+Results saved to /content/runs/detect/YOLOv8s_Baseline
+
+
+========================================================================================================================================
+
+
+
+YOLOv8m_Baseline
+
+
+Validating /content/runs/detect/YOLOv8m_Baseline/weights/best.pt...
+Ultralytics 8.4.45 🚀 Python-3.12.13 torch-2.10.0+cu128 CUDA:0 (Tesla T4, 14913MiB)
+Model summary (fused): 93 layers, 25,842,655 parameters, 0 gradients, 78.7 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 3/3 1.1s/it 3.3s
+                   all         84        461       0.91      0.811      0.878      0.609
+               Hardhat         42         79      0.959      0.899      0.935      0.661
+            NO-Hardhat         37         69      0.923      0.696      0.782      0.467
+                Person         84        166      0.911      0.798      0.894      0.646
+           Safety Vest         28         41       0.92      0.878      0.954      0.725
+        NO-Safety Vest         56        106      0.837      0.783      0.827      0.547
+Speed: 0.2ms preprocess, 12.3ms inference, 0.0ms loss, 6.0ms postprocess per image
+Results saved to /content/runs/detect/YOLOv8m_Baseline
+
+
+
+
+
+========================================================================================================================================
+
+AA_YOLOV1 which is without parameter tuning
+
+Validating /kaggle/working/runs/AA_YOLO_v1-3/weights/best.pt...
+Ultralytics 8.4.46 🚀 Python-3.12.12 torch-2.10.0+cu128 CUDA:0 (Tesla T4, 14913MiB)
+aa_YOLO summary (fused): 90 layers, 4,758,239 parameters, 0 gradients, 41.3 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 3/3 1.4it/s 2.2s1.0s
+                   all         84        461      0.832      0.715       0.77      0.453
+               Hardhat         42         79      0.918      0.708      0.832      0.552
+            NO-Hardhat         37         69      0.908      0.652      0.712      0.364
+                Person         84        166      0.685      0.719      0.709      0.355
+           Safety Vest         28         41      0.894      0.824       0.89      0.613
+        NO-Safety Vest         56        106      0.756       0.67      0.707      0.379
+Speed: 0.2ms preprocess, 9.9ms inference, 0.2ms loss, 11.8ms postprocess per image
+Results saved to /kaggle/working/runs/AA_YOLO_v1-3
+
+
+
+
+=======================================================================================================================================
+||                                                                                                                                   ||
+||                                                  Main Model Performance                                                           ||
+||                                              Outperformed All other Models                                                        ||
+||                                                 Model Name: AA_YOLO_V2                                                            ||
+||                                                                                                                                   ||
+=======================================================================================================================================
+
+
+
+Validating /kaggle/working/runs/detect/train/weights/best.pt...
+Ultralytics 8.4.46 🚀 Python-3.12.12 torch-2.10.0+cu128 CUDA:0 (Tesla T4, 14913MiB)
+Model summary (fused): 93 layers, 25,842,655 parameters, 0 gradients, 78.7 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 3/3 1.2it/s 2.5s1.7s
+                   all         84        461      0.952      0.827      0.907      0.623
+               Hardhat         42         79      0.944      0.861      0.931      0.661
+            NO-Hardhat         37         69      0.926      0.739      0.844      0.516
+                Person         84        166       0.98      0.819      0.929      0.626
+           Safety Vest         28         41       0.96      0.902      0.965      0.721
+        NO-Safety Vest         56        106       0.95      0.811      0.864      0.589
+Speed: 0.3ms preprocess, 21.8ms inference, 0.0ms loss, 2.3ms postprocess per image
+Results saved to /kaggle/working/runs/detect/train
+
+
+
+=======================================================================================================================================
+
+
+
